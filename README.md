@@ -68,14 +68,6 @@
 -
 
 
-## Demo<!-- Required -->
-<!-- 
-* You can add a demo here GH supports images/ GIFs/videos 
-* 
-* It's recommended to use GIFs as they are more dynamic
--->
-
-
 ## Table of Contents<!-- Optional -->
 <!-- 
 * This section is optional, yet having a contents table 
