@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #64748b;
+  --background-color: #ffffff;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1f2937;
+  background-color: var(--background-color);
+}
+
+.container {
+  @apply mx-auto px-4 max-w-7xl;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-full transition-colors duration-200;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* AOS animations override */
+[data-aos] {
+  pointer-events: none;
+}
+[data-aos].aos-animate {
+  pointer-events: auto;
+}
+
+.txt-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
