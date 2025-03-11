@@ -11,12 +11,14 @@ import * as AOS from 'aos';
     <nav class="fixed w-full bg-white/80 backdrop-blur-sm z-50 shadow-sm">
       <div class="container mx-auto px-4 py-4">
         <div class="flex justify-between items-center">
-          <a routerLink="/" class="text-2xl font-bold text-gray-800">AM.</a>
+          <a routerLink="/" class="text-2xl font-bold text-gray-800">
+            <img src="logo.png" class="img-size" alt="" srcset="">
+          </a>
           <ul class="flex space-x-8">
             <li><a routerLink="/" class="hover:text-blue-600 transition-colors">Home</a></li>
             <li><a routerLink="/about" class="hover:text-blue-600 transition-colors">About</a></li>
             <li><a routerLink="/portfolio" class="hover:text-blue-600 transition-colors">Work</a></li>
-            <li><a routerLink="/contact" class="hover:text-blue-600 transition-colors">Contact</a></li>
+            <li><a routerLink="/blog" class="hover:text-blue-600 transition-colors">Blog</a></li>
           </ul>
         </div>
       </div>

@@ -43,3 +43,7 @@ html {
   text-align: justify;
   text-justify: inter-word;
 }
+
+.img-size {
+  width: 2rem;
+}
