@@ -68,6 +68,52 @@ import { CommonModule } from '@angular/common';
         </div>
       </div>
     </section>
+    <section class="py-32 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-16 text-center" data-aos="fade-up">Recent Videos</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="group relative overflow-hidden rounded-lg shadow-lg" 
+               *ngFor="let project of featuredProjects; let i = index"
+               [attr.data-aos]="'fade-up'"
+               [attr.data-aos-delay]="i * 100">
+            <img [src]="project.image" [alt]="project.title" class="w-full h-64 object-cover">
+            <div class="absolute inset-0 bg-black/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+              <div class="text-center text-white p-6">
+                <h3 class="text-xl font-bold mb-2">{{project.title}}</h3>
+                <p class="mb-4">{{project.description}}</p>
+                <a [href]="project.link" target="_blank" 
+                   class="inline-block px-6 py-2 border-2 border-white text-white rounded-full hover:bg-white hover:text-black transition-colors">
+                  View videos
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-32 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-16 text-center" data-aos="fade-up">Recent Articles</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="group relative overflow-hidden rounded-lg shadow-lg" 
+               *ngFor="let project of featuredProjects; let i = index"
+               [attr.data-aos]="'fade-up'"
+               [attr.data-aos-delay]="i * 100">
+            <img [src]="project.image" [alt]="project.title" class="w-full h-64 object-cover">
+            <div class="absolute inset-0 bg-black/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+              <div class="text-center text-white p-6">
+                <h3 class="text-xl font-bold mb-2">{{project.title}}</h3>
+                <p class="mb-4">{{project.description}}</p>
+                <a [href]="project.link" target="_blank" 
+                   class="inline-block px-6 py-2 border-2 border-white text-white rounded-full hover:bg-white hover:text-black transition-colors">
+                  View Articles
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   `
 })
 export class HomeComponent {
