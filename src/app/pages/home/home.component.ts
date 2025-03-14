@@ -16,8 +16,8 @@ import { CommonModule } from '@angular/common';
           <h2 class="text-4xl font-bold text-gray-700 mb-8">
             Developer Advocate
           </h2>
-          <p class="text-xl text-gray-600 mb-12 txt-justify">
-          DESCRIBE
+          <p class="text-xl text-gray-600 mb-12 txt-justify max-w-2xl">
+          As a passionate Developer Advocate, I bridge the gap between technology and community, empowering developers through education, resources, and advocacy. Dedicated to fostering innovation and collaboration, I create engaging content, share best practices, and champion developer tools to inspire the community.
           </p>
           <div class="flex gap-6">
             <a routerLink="/portfolio" 
@@ -30,6 +30,10 @@ import { CommonModule } from '@angular/common';
             </a>
           </div>
         </div>
+       
+      </div>
+      <div class="__me">
+          <img src="portfolio.jpg" alt="" srcset="">
       </div>
     </section>
 

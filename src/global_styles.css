@@ -75,3 +75,30 @@ html {
   align-items: center;
 }
 
+.__me {
+  width: 40%;
+  height: fit-content;
+  position: absolute;
+  z-index: -1;
+  right: -2%;
+  top: -11%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.__me img {
+  max-width: 100%;
+  position: relative;
+}
+
+
+.__me img::after {
+  content: "";
+  background-color: #2563eb;
+  width: 1rem;
+  height: 15rem;
+  position: absolute;
+  
+}
