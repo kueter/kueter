@@ -94,24 +94,24 @@ Experienced Fullstack Developer transitioned to DevOps and Cloud Engineering. My
 
 ## 📝 Blog & Contributions
 
-- [**Medium**](https://medium.com/@yourprofile) - Articles on DevOps and Cloud
-- [**Dev.to**](https://dev.to/yourprofile) - Tutorials and experience sharing
+- [**Medium**](https://medium.com/@agbassahr) - Articles on DevOps and Cloud
+- [**Dev.to**](https://dev.to/kueter) - Tutorials and experience sharing
 - **Open Source Contributions**: Terraform modules, Helm charts
 
 ---
 
 ## 📞 Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@domain.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/roodolphe)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:roodolphe@live.fr)
 [![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://your-portfolio.com)
 
 ---
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kueter&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kueter&layout=compact&theme=radical)
 
 **💡 "From idea to production, I automate your value"**
 
